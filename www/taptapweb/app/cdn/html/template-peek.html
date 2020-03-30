@@ -1,0 +1,16 @@
+<tab id="tab-preview" class="flex tab-preview" onclick="event.target.id==='tab-preview' ? '/play/'.router() : null">
+    <wheel>
+        <page>
+            <btn class="queue" data-after="Queue"></btn>
+            <btn class="stats" data-after="Scores"></btn>
+            <info class="overflow-x" style="display: block">
+                <text>'+json.name+'</text>
+                <text>'+json.author+'</text>
+                <text>'+json.stepfile+'</text>
+                <text>'+json.length+'</text>
+                <text>'+json.style+'</text>
+            </info>
+            <btn class="start" data-after="Start" onclick="var route='/play/'+GET[1]+'/game/';route.router({event})"></btn>
+        </page>
+    </wheel>
+</tab>

@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"Truto","characterIndex":0,"characterName":"Truto-walk","classId":3,"equips":[1,0,0,0,0],"faceIndex":0,"faceName":"Truto-new","traits":[],"initialLevel":1,"maxLevel":99,"name":"Truto","nickname":"Tru","note":"","profile":""},
+{"id":2,"battlerName":"Evielle","characterIndex":0,"characterName":"Evielle-walk","classId":4,"equips":[2,1,0,3,0],"faceIndex":0,"faceName":"Evielle","traits":[],"initialLevel":2,"maxLevel":99,"name":"Evielle","nickname":"Evi","note":"","profile":""},
+{"id":3,"battlerName":"Mizfortuna","characterIndex":0,"characterName":"Mizfortuna-walk","classId":1,"equips":[3,0,2,3,4],"faceIndex":3,"faceName":"Mizfortuna","traits":[{"code":51,"dataId":1,"value":1}],"initialLevel":23,"maxLevel":99,"name":"Mizfortuna","nickname":"Miss Fortune","note":"","profile":""},
+{"id":4,"battlerName":"Lhalou","characterIndex":0,"characterName":"Lhalou-walk","classId":2,"equips":[0,0,0,3,0],"faceIndex":0,"faceName":"Lhalou","traits":[],"initialLevel":38,"maxLevel":99,"name":"Lhalou","nickname":"Lou","note":"","profile":""}
+]

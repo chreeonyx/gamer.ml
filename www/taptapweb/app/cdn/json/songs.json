@@ -1,0 +1,44 @@
+[
+    {
+        "song": "American Anthem",
+        "author": "John Stafford Smith",",
+        "stepfile": "chree_banon",
+        "length": "1:40",
+        "style": "concierto"
+    },
+    {
+        "song": "Candy X2 Bass",
+        "author": "jindev",",
+        "stepfile": "chree_banon",
+        "length": "1:00",
+        "style": "techno"
+    },
+    {
+        "song": "Death",
+        "author": "Hades, Ruler of Hell",",
+        "stepfile": "chree_banon",
+        "length": "2:23",
+        "style": "techno"
+    },
+    {
+        "song": "Open Space",
+        "author": "Elon Musk's Producer AKA Unknown",",
+        "stepfile": "chree_banon",
+        "length": "1:47",
+        "style": "chillhop"
+    },
+    {
+        "song": "Frédéric Chopin's Nocturne #9",
+        "author": "Frédéric Chopin",
+        "stepfile": "chree_banon",
+        "length": "4:30",
+        "style": "classical"
+    },
+    {
+        "song": "Falling Sheep",
+        "author": "Chree Banon",
+        "stepfile": "chree_banon",
+        "length": "2:42",
+        "style": "trap"
+    },
+]

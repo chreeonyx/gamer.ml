@@ -1,0 +1,13 @@
+<tab>
+    <fade class="absolute before" style="top:0;width:100%;height:50px;background-image:linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,1) calc(111%/1));z-index:123;"></fade>
+    <wheel>
+        <pages>
+            <page>
+                <container class="overflow-x">
+                    <songs id="songs" onclick="var route='/play/'+event.target.closest('song').dataset.uid+'/';route.router()"></songs>
+                </container>
+            </page>
+        </pages>
+    </wheel>
+    <fade class="absolute before" style="bottom:0;width:100%;height:86px;background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,1) calc(111%/1));z-index:123;"></fade>
+</tab>

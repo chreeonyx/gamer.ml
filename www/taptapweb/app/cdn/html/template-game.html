@@ -1,0 +1,41 @@
+<link async rel="stylesheet" href="/cdn/css/template-game.css" media="all">
+<tab>
+    <wheel>
+        <pages>
+            <page>
+                <game id="game" class="paused">
+                    <play>
+                        <pads>
+                            <pad id="pad-one">
+                                <left></left>
+                                <down></down>
+                                <up></up>
+                                <right></right>
+                            </pad>
+                        </pads>
+                        <taps>
+                            <tap id="tap-one">
+                                <left id="left"></left>
+                                <down id="down"></down>
+                                <up id="up"></up>
+                                <right id="right"></right>
+                            </tap>                        
+                        </taps>
+                        <icon id="icon" class="icon"></icon>
+                        <nav>
+                            <quit onclick="game.quit()"></quit>
+                            <state id="state" class="state" onclick="game.state(event)"></state>
+                            <restart onclick="game.restart(event)"></restart>
+                        </nav>
+                        <step id="step"><file id="file" class="start"><relative id="steps"></relative></file></step>
+                        <wave><form onsubmit="game.end(event)">                      
+                            <line id="line" class="line"></line>
+                            <img id="waveform" src="/cdn/png/waveform.png" width="100%;">
+                            <input type="hidden">
+                        </form></wave>
+                    </play>
+                </game>
+            </page>
+        </pages>
+    </wheel>
+</tab>

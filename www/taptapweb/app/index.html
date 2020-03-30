@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang='en-US' title='TapTapWeb'>
+  <head>
+    <title>TapTapWeb</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,viewport-fit=cover">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="Description" content="TapTapWeb is a browser-based rhythm video game and engine. Developed as a JAMstack port of Konami's arcade game series Dance Dance Revolution, TapTapWeb is primarily designed for all HTML5/Javascipt capable web browsers.">
+    <meta name="theme-color" content="#fff">
+    <link rel="apple-touch-startup-image" href="/cdn/png/startup.png">
+    <link rel="canonical" href="https://mallzones.com"/>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="/cdn/png/favicon.png">
+    <link async rel="stylesheet" href="/index.css" media="all">
+    <script async src='/cdn/js/vars.js'></script>
+    <script async src='/cdn/js/jpurey.js'></script>
+    <script async src='/cdn/js/router.js'></script>
+    <script async src='/cdn/js/game.js'></script>
+    <script async src='/index.js'></script>
+  </head>
+  <body data-load data-nojs data-section onload="init()">
+    <noscript>
+      <div>Javascript Required</div>
+      <div>We're sorry, but MallZones doesn't work properly without JavaScript enabled. If you can't enable Javscript, try visiting our <a>optimized website</a></div>
+      <style>
+        body { background: #ff3b30; overflow: hidden; margin: 0; -webkit-font-smoothing: antialiased; }
+        noscript { border: 1px solid #bbb; padding: 10px; border-radius: 3px; position: absolute; top: 36px; left: 0; right: 0; bottom: 36px; width: calc(100% - 40px); height: 86px; margin: auto; background: whitesmoke; z-index: 999999999999999999999999; }
+        noscript div { height: 36px; font-weight: bolder; }
+        noscript div:first-child { line-height: calc(36px); font-family: Lato Regular; font-weight: bolder; font-size: 18px; }
+        noscript div:nth-child(2) { line-height: calc(50px/3); font-family: Lato Light; font-weight: bolder; font-size: 13px; }
+        [data-nojs] > :not(noscript) { display: none; }
+      </style>
+    </noscript>
+    <main id='wrapper' class='wrapper' role="main">
+    	<section id='center' class='center content' role='application'></section>
+    	<section id='north' class='north content' role='application'></section>
+    	<section id='east' class='east content' role='application'></section>
+    	<section id='west' class='west content' role='application'></section>
+        <section id='south' class='south content' role='application'></section>
+    </main>
+    <header>
+      <div class='type' onclick="'/'.router()"></div>
+      <div class='logo' onclick="'/play/'.router()">Touch Music</div>
+      <div class='user' onclick="'/me/'.router()"></div>
+    </header>    
+    <footer>
+      <icon class='play' onclick="'/play/'.router()"></icon>
+      <icon class='live' onclick="'/live/'.router()"></icon>
+      <icon class='stat' onclick="'/stat/'.router()"></icon>
+      <icon class='menu' onclick="'/menu/'.router()"></icon>
+      <icon class='exit' onclick="window.location.href='https://uios.me/apps/arcade/'"></icon>
+    </footer>    
+    <audio id="audio" class="audio" ontimeupdate="game.tick(event.type==='timeupdate' ? event.timeStamp : null)" preload="none"><source alt="play"></audio>  
+    <video id="video" class="video" loop muted preload="none" src="/cdn/video/candyx2bass.mp4"></video>  
+  </body>
+</html>

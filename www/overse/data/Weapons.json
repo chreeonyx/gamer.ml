@@ -1,0 +1,21 @@
+[
+null,
+{"id":1,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"Carbon Blade","note":"","params":[0,0,18,0,0,0,0,0],"price":500,"wtypeId":1},
+{"id":2,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":118,"name":"Energy Blaster","note":"","params":[0,0,10,0,0,0,0,0],"price":500,"wtypeId":2},
+{"id":3,"animationId":1,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":106,"name":"Aether Gloves","note":"","params":[0,0,10,0,0,0,0,0],"price":500,"wtypeId":3},
+{"id":4,"animationId":11,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":120,"name":"Lesser Edge","note":"","params":[0,0,33,0,0,0,0,0],"price":1000,"wtypeId":1},
+{"id":5,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":116,"name":"Field Gun","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":6,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":105,"name":"Nether Claws","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":3},
+{"id":7,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":122,"name":"Woe Blade","note":"","params":[0,0,41,0,0,0,0,0],"price":0,"wtypeId":1},
+{"id":8,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":102,"name":"Heart Breaker","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":9,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":101,"name":"North Pole","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":3},
+{"id":10,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":117,"name":"Chain Sword","note":"","params":[0,0,57,0,0,0,0,0],"price":0,"wtypeId":1},
+{"id":11,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":115,"name":"Face Buster","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":12,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":108,"name":"Natural Force","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":3},
+{"id":13,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":107,"name":"Ghost Maker","note":"","params":[0,0,77,0,0,0,0,0],"price":0,"wtypeId":1},
+{"id":14,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":114,"name":"Giant Crusher","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":15,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":109,"name":"South Pole","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":3},
+{"id":16,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":119,"name":"His Voice","note":"","params":[0,0,99,0,0,0,0,0],"price":0,"wtypeId":1},
+{"id":17,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":118,"name":"Shooting Star","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":18,"animationId":0,"description":"Ancient quantized texts with unmatched power transcending space and time.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":121,"name":"The Word","note":"","params":[0,0,0,0,0,1,0,0],"price":0,"wtypeId":3}
+]

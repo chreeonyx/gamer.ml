@@ -1,0 +1,25 @@
+<link async rel="stylesheet" href="/cdn/css/template-index.css" media="all">
+<tab class="flex">
+     <wheel>
+        <pages>
+            <page>
+                <form id="login" class="login" onsubmit="event.preventDefault(); auth.login(byId('username').value,byId('password').value);">
+                    <!--<div class="signin mz inline" onclick="'/home/'.route();"></div>-->
+                    <div class="lgn-user">
+                        <div class="user-ico" style="background-image: url('https://cdn.mallzones.com/file/mzncdn/asset/svg/profile.svg');"></div>
+                        <input type="text" id="username" placeholder="E-mail">
+                        <input class="absolute" id="rememberme" name="rememberme" value="remember" style="display: none;top:0;right:0;margin:8px;width:20px;height:20px;" type="checkbox">
+                    </div>
+                    <div class="lgn-pass">
+                        <div class="pass-ico" style="background-image: url('https://cdn.mallzones.com/file/mzncdn/asset/svg/password.svg');"></div>
+                        <input autocomplete="" type="password" id="password" placeholder="Password">
+                        <icon class="absolute bkgctn inline" style="display:none;width: 36px; height: 36px; right: 0; background-size: 18px;"></icon>
+                    </div>
+                    <input type="submit" id="log" class="log in" data-id="" value="Sign In">
+                    <btn class="center inline sign-up" onclick="'/register/'.route()">Sign Up</btn>
+                    <btn class="center inline play-it" onclick="'/play/'.router()">Continue as Guest</btn
+                </form>
+            </page>
+        </pages>
+    </wheel>
+</tab>

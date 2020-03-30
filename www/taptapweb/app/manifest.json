@@ -1,0 +1,9 @@
+{
+    "name": "Click Click Revolution",
+    "short_name": "ClickClickRevolution",
+    "theme_color": "#bbb",
+    "background_color": "#bbb",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}

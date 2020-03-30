@@ -1,0 +1,25 @@
+QUESTS
+Love in the Waters: Watch the solar eclipse at Cliff Side with Evi.
+The Last Kind: Collect the Western Orb.
+Follow The Light: Collect the Northern Orb
+To Be Or Not To Be: Retrieve a destroyed ancient Artifact.
+Wrinkle In Space: Collect the Eastern Orb.
+Portals of Heaven: Cross the international date line.
+Bottomless Pit: Seal the Holy Hole anomaly.
+
+SKILLS
+Energy (Elementalist): Wind, Water, Fire, Earth, Ice.
+Artifact (Guardian): Electric, Magnetic, Magical, Aether, Nether
+Projectile (Supporter): Guns, Arrows, Shuriken, Bombs, 
+Blade (Weaponist): Sword, Talons, Hammer, Axe, Staff
+
+ARTIFACTS
+Western Orb: Controls the flow of time. Required to time travel through the Ancient Rift.
+
+Chains of Boson: Controls Misfortuna's energy. Required to allow Misfortuna to join your party. She makes you get one for her. You decide to travel back in time at the rift to acquire it before its destroyed. She forgets she sent you and joins party thankfully.
+
+Eastern Orb:
+
+Northern Orb:
+
+Southern Orb
