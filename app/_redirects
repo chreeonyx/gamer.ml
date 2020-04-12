@@ -1,3 +1,1 @@
-/  /index.html 200
-/:file /:file 200
-/:path/*  /index.html 200
+/* /index.html 200
